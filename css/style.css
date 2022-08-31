@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245)
+}
+
+nav{
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.for__principal{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.formulario__gastos{
+    padding: 25px;
+    width: 700px;
+    height: auto;
+    border: solid #821333;
+
+}
+#vacationCal{
+    display: grid;
+    justify-items: stretch;
+    
+}
+
+#vacationCal input{
+
+    padding: 10px;
+    
+}
+
+.container-data{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Boton__cal{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.container__icons{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.icons__viaje{
+    padding:10 px;
+    text-align: center;
+    width: 350px;
+}
+
+.data__print{
+    width: 300px;
+    height: 20px;
+}
+.data__print h3{
+    font-size: 23px;
+}
+
+.Form__input{
+    
+    color: aliceblue;
+    padding: 10px;
+}
+
+.Form__input label{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Form__input input{
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #821333;
+  
+}
+
+.logo__viaje{
+    width: 100px;
+    height: 100px;
+}
+.boton__cal{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton__cal button{
+    width: 100px;
+    height: 50px;
+    background-color: #821333;
+    color: aliceblue;
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--titulo-->
+    <nav>
+        <h1>Gastos Xtreme</h1>
+    </nav>
+
+    <!--Formulario-->
+    <div class="for__principal">
+        <div class="formulario__gastos">
+            <form id="vacationCal">
+
+                <div class="Form__input">
+                    <label>Ingrese su Destino</label>
+                    <input type="text" placeholder="Punta Cana" multiple id="destiny" required>
+                </div>
+                <div class="Form__input">
+                    <label>Ingrese su Presupuesto</label>
+                    <input type="number" placeholder="1500" id="budget" required>
+                </div>
+                <div class="Form__input">
+                    <label>Ingrese sus gastos en Hotel</label>
+                    <input type="number" placeholder="500" id="acomodation" required>
+                </div>
+                <div class="Form__input">
+                    <label>Ingrese sus gastos en comida</label>
+                    <input type="number" placeholder="400" id="food" required>
+                </div>
+                <div class="Form__input">
+                    <label>Ingrese sus gastos Pasajes</label>
+                    <input type="number" placeholder="1000" id="pass" required>
+                </div>
+                <div class="Form__input">
+                    <label>Ingrese sus gastos en actividades</label>
+                    <input type="number" placeholder="800" id="excursions" required>
+                </div>
+
+                <p class="boton__cal">
+                    <button type="submit" value="" class="boton"> CALCULATE</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <!--Formulario-->
+
+
+    <!--Iconos cuenta final -->
+    <div class="Container__viaje">
+        <div class="container__icons">
+            <div class="icons__viaje">
+                <h4>Destino</h4>
+                <img src="./img/viaje.png" class="logo__viaje" alt="">
+            </div>
+            <div class="icons__viaje">
+                <h4>Presupuesto</h4>
+                <img src="./img/icono-fondos.png" class="logo__viaje" alt="">
+            </div>
+            <div class="icons__viaje">
+                <h4>Restante</h4>
+                <img src="./img/2065250.png" class="logo__viaje" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="data">
+        <div class="result" id="result"></div>
+    </div>
+    <!--Iconos cuenta final -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
