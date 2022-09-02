@@ -1,3 +1,42 @@
+let Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio:  Amigos, Instangram, Facebook, tv ");
+
+while (Propaganda__usuario != "salir") {
+    switch (Propaganda__usuario) {
+        case "Amigos":
+            alert("Muchas Gracias! ")
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            break;
+        case "Instangram":
+            alert("Muchas Gracias! ")
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            break;
+        case "Facebook":
+            alert("Muchas Gracias! ")
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            break;
+        case "TV":
+            alert("Muchas Gracias! ")
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            break;
+        default:
+            alert("Por favor escriba una opcion correcta");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            
+    }
+}
+
+let Responsabilidad__index = parseInt(prompt("Ingrese SI, si usa esta erramienta bajo su responsabilidad"));
+const Responsabilidad__correct = "SI";
+
+for (let i = 0; i < 15475; i++) {
+    if (Responsabilidad__index == Responsabilidad__correct) {
+        alert("Excelente continue con el servicio. ")
+        break;
+    } else {
+        Responsabilidad__index = prompt("Por favor coloque la palara SI , para continuar.");
+    }
+}
+
 let vocationCalc = document.getElementById("vacationCal");
 
 vocationCalc.addEventListener("submit", calcExpenses);
@@ -54,3 +93,7 @@ function SM(budget, balance, destiny) {
 function reset() {
     document.getElementById("vacationCal").reset()
 }
+
+
+
+
