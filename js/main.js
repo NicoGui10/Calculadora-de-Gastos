@@ -1,39 +1,27 @@
-let Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio:  Amigos, Instangram, Facebook, tv ");
+let Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio:  Amigos, Instagram, Facebook, tv ");
 
-while (Propaganda__usuario != "salir") {
+while (Propaganda__usuario != "fin") {
     switch (Propaganda__usuario) {
         case "Amigos":
             alert("Muchas Gracias! ")
-            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
-        case "Instangram":
+        case "Instagram":
             alert("Muchas Gracias! ")
-            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
         case "Facebook":
             alert("Muchas Gracias! ")
-            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
         case "TV":
             alert("Muchas Gracias! ")
-            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
         default:
             alert("Por favor escriba una opcion correcta");
-            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, o Escriba salir si no esta interesado en responder ");
+            Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             
-    }
-}
-
-let Responsabilidad__index = parseInt(prompt("Ingrese SI, si usa esta erramienta bajo su responsabilidad"));
-const Responsabilidad__correct = "SI";
-
-for (let i = 0; i < 15475; i++) {
-    if (Responsabilidad__index == Responsabilidad__correct) {
-        alert("Excelente continue con el servicio. ")
-        break;
-    } else {
-        Responsabilidad__index = prompt("Por favor coloque la palara SI , para continuar.");
     }
 }
 
