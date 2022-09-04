@@ -14,7 +14,7 @@ while (Propaganda__usuario != "fin") {
             alert("Muchas Gracias! ")
             Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
-        case "TV":
+        case "tv":
             alert("Muchas Gracias! ")
             Propaganda__usuario = prompt("Ingrese el lugar donde nos conocio, Amigos, Instangram, Facebook, tv, Si ya respondio escriba fin para continuar ");
             break;
