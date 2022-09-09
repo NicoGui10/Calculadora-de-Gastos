@@ -25,7 +25,7 @@ while (Propaganda__usuario != "fin") {
     }
 }
 /* Loteria Array*/
-prompt("Ingrese su numero de la suerte, Si sale entre los sorteados Accedera a un descuento comunicandose con soporte.");
+parseInt( prompt("Ingrese su numero de la suerte, Si sale entre los sorteados Accedera a un descuento comunicandose con soporte."));
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
