@@ -38,6 +38,15 @@ for (let i = 1; i < 6; i++) {
 
 alert("El numero ganador es: ");
 alert(arrayLotery);
+
+
+let participarx2 = prompt("Quiere volver a participar, si o no");
+while (participarx2 != "no"){
+    alert(arrayLotery.reverse());
+    participarx2= prompt ("Ingrese no, si desea salir o un numero para volver a sortear");
+} 
+
+
 alert ("Gracias por Participar continue con nuestra app")
 
 /* Loteria Array*/
